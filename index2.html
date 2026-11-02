@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAKH AI Chatbot App</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: #121212;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Voiceflow Chatbot Embed Code -->
+    <script type="text/javascript">
+      (function(d, t) {
+          var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+          v.onload = function() {
+            window.voiceflow.chat.load({
+              verify: { projectID: '6ae8940c959d8b23db694da6' },
+              url: 'https://general-runtime.voiceflow.com',
+              voice: {
+                url: 'https://runtime-api.voiceflow.com'
+              },
+              environmentID: 'main',
+              versionVariant: 'published'
+            });
+          }
+          v.src = 'https://cdn.voiceflow.com/widget-next/bundle.mjs'; v.type = 'text/javascript'; s.parentNode.insertBefore(v, s);
+      })(document, 'script');
+    </script>
+
+</body>
+</html>
